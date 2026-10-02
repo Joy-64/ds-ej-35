@@ -28,7 +28,7 @@ $accion = $producto ? 'editar' : 'agregar';
                         <label class="form-label">Nombre</label>
                         <input type="text" class="form-control" name="nombre" value="<?php echo $producto ? $producto->Nombre : ''; ?>" required>
                     </div>
-
+  
                     <div class="mb-3">
                         <label class="form-label">Precio</label>
                         <input type="text" class="form-control" name="precio" value="<?php echo $producto ? $producto->Precio : ''; ?>" required>
